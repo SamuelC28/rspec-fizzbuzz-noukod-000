@@ -1,13 +1,13 @@
 require 'pry'# Don't forget! This file needs to be 'required' in its spec file
-def fizzbuzz (number)
+def fizzbuzz (int)
   binding.pry
-  if number %3 == 0
+  if int %3 == 0
     puts "Fizz"
-    elsif number %5 == 0
+    elsif int %5 == 0
       puts "Buzz"
-      elsif (number %3 == 0) && (number %5 == 0)
+      elsif (int %3 == 0) && (int %5 == 0)
         puts "FizzBuzz"
-        elsif (number %3 != 0) && (number %5 != 0)
+        elsif (int %3 != 0) && (int %5 != 0)
           puts "nil"
         end
       end
